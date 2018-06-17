@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Woof</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>CodeDog Ltd.</Company>
+    <Authors>Adam Łyskawa, Kamil Marzec</Authors>
+    <Description>Woof.Data PostgreSQL bindings.</Description>
+    <Copyright>(c)2018 by CodeDog Ltd.</Copyright>
+    <PackageLicenseUrl>https://en.wikipedia.org/wiki/MIT_License</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/HTD/Woof.Data.PostgreSQL</PackageProjectUrl>
+    <PackageTags>woof codedog data postgresql</PackageTags>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="4.0.0" />
+    <PackageReference Include="Woof.Core" Version="1.0.4" />
+    <PackageReference Include="Woof.Core.Deployment" Version="1.0.0" />
+    <PackageReference Include="Woof.Data" Version="1.0.0" />
+  </ItemGroup>
+</Project>
