@@ -4,7 +4,7 @@
     <RootNamespace>Woof</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>CodeDog Ltd.</Company>
-    <Authors>Adam Łyskawa, Kamil Marzec</Authors>
+    <Authors>Adam Łyskawa</Authors>
     <Description>Woof.Data PostgreSQL bindings.</Description>
     <Copyright>(c)2018 by CodeDog Ltd.</Copyright>
     <PackageLicenseUrl>https://en.wikipedia.org/wiki/MIT_License</PackageLicenseUrl>
